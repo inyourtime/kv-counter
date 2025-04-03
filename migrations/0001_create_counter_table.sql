@@ -1,0 +1,6 @@
+-- Migration number: 0001 	 2025-04-03T08:35:39.208Z
+CREATE TABLE
+  IF NOT EXISTS "counter" (
+    key TEXT PRIMARY KEY NOT NULL,
+    count INTEGER NOT NULL DEFAULT 0
+  );

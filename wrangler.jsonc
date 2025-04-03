@@ -1,0 +1,38 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "kv-counter",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-04-03",
+  // "compatibility_flags": [
+  //   "nodejs_compat"
+  // ],
+  // "vars": {
+  //   "MY_VAR": "my-variable"
+  // },
+  // "kv_namespaces": [
+  //   {
+  //     "binding": "COUNTER_NAMESPACE",
+  //     "id": "96733603f7df45128c5abfd2ab4709cc"
+  //   }
+  // ]
+  // "r2_buckets": [
+  //   {
+  //     "binding": "MY_BUCKET",
+  //     "bucket_name": "my-bucket"
+  //   }
+  // ],
+  "d1_databases": [
+    {
+      "binding": "COUNTER_DB",
+      "database_name": "github_counter",
+      "database_id": "f08771b8-2c58-43e3-900f-d0855daf7f6b"
+    }
+  ]
+  // "ai": {
+  //   "binding": "AI"
+  // },
+  // "observability": {
+  //   "enabled": true,
+  //   "head_sampling_rate": 1
+  // }
+}
