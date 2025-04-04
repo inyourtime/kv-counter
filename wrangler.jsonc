@@ -27,12 +27,15 @@
       "database_name": "github_counter",
       "database_id": "f08771b8-2c58-43e3-900f-d0855daf7f6b"
     }
-  ]
+  ],
   // "ai": {
   //   "binding": "AI"
   // },
-  // "observability": {
-  //   "enabled": true,
-  //   "head_sampling_rate": 1
-  // }
+  "observability": {
+    "logs": {
+      "enabled": true
+    },
+    "enabled": true,
+    "head_sampling_rate": 1
+  }
 }
